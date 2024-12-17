@@ -5,3 +5,4 @@ node download_lists.js blocklist
   https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
   https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/light.txt
   https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+  https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.txt
