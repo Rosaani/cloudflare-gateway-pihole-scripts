@@ -20,6 +20,7 @@ urls=(
   https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_14_Annoyances/filter.txt
   https://github.com/x0uid/SpotifyAdBlock/blob/master/SpotifyBlocklist.txt
   https://github.com/x0uid/SpotifyAdBlock/blob/master/hosts
+  https://gist.github.com/opus-x/3e673a9d5db2a214df05929a4eee6a57
 )
 # download all files in parallel and append them to blocklist.txt
 node download_lists.js blocklist.txt ${urls[@]}
