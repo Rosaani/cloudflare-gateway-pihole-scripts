@@ -18,6 +18,8 @@ urls=(
   https://v.firebog.net/hosts/Easyprivacy.txt
   https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_19_Annoyances_Popups/filter.txt
   https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_14_Annoyances/filter.txt
+  https://github.com/x0uid/SpotifyAdBlock/blob/master/SpotifyBlocklist.txt
+  https://github.com/x0uid/SpotifyAdBlock/blob/master/hosts
 )
 # download all files in parallel and append them to blocklist.txt
 node download_lists.js blocklist.txt ${urls[@]}
